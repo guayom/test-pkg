@@ -3,7 +3,8 @@
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel index.html ",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /",
+    "test": "jest --config ./jest.config.json"
   },
   "dependencies": {
     "@guayom/test-pkg": "1.0.1",
@@ -29,6 +30,9 @@
   },
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "cross-env": "^6.0.3"
+    "cross-env": "^6.0.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^24.9.0"
   }
 }

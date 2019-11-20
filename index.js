@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Msg from "./test-pkg"
+import Msg from "./components/Msg"
 
 const App = () => (
-  <div>
-    <h1>Hello friends</h1>
     <Msg />
-  </div>
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));

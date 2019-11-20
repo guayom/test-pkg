@@ -18,11 +18,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
+      with: 
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
       run: |
         npm ci
         npm run build --if-present
         npm test
       env:
         CI: true
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}

@@ -6,9 +6,9 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
-    "@guayom/test-pkg": "1.0.0",
-    "autoprefixer": "^7.2.1",
-    "babel-preset-react-app": "^3.1.0",
+    "@guayom/test-pkg": "1.0.1",
+    "autoprefixer": "^9.7.2",
+    "babel-preset-react-app": "^9.0.2",
     "parcel-bundler": "latest",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
@@ -28,7 +28,7 @@
     }
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "cross-env": "^5.1.1"
+    "babel-core": "^7.0.0-0",
+    "cross-env": "^6.0.3"
   }
 }

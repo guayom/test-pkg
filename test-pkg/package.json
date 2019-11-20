@@ -1,0 +1,16 @@
+{
+  "name": "@guayom/test-pkg",
+  "version": "1.0.0",
+  "description": "Testing package",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parsleyhealth/test-pkg.git",
+    "directory": "test-pkg"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guayo Mena",
+  "license": "ISC"
+}

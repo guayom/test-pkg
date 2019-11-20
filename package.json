@@ -7,7 +7,6 @@
     "test": "jest --config ./jest.config.json"
   },
   "dependencies": {
-    "@guayom/test-pkg": "1.0.1",
     "autoprefixer": "^9.7.2",
     "babel-preset-react-app": "^9.0.2",
     "parcel-bundler": "latest",

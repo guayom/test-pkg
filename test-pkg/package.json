@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/parsleyhealth/test-pkg.git",
+    "url": "https://github.com/guayom/test-pkg.git",
     "directory": "test-pkg"
   },
   "scripts": {

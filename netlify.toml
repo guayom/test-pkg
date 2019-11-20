@@ -1,0 +1,3 @@
+[build]
+  publish = "dist"
+  command = "echo 'npm run build'"
